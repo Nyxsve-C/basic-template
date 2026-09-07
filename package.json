@@ -14,8 +14,7 @@
     "build": "webpack --config webpack.prod.js",
     "build:dev": "webpack --config webpack.dev.js",
     "deployment-branch": "git branch gh-pages",
-    "sync-deployment-branch": "git checkout gh-pages && git merge main --no-edit",
-    "deploy": "git checkout gh-pages && git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git checkout main"
+    "deploy": "git checkout gh-pages && git merge main --no-edit && git add dist -f && git commit -m 'Deployment commit' && git subtree push --prefix dist origin gh-pages && git checkout main"
   },
   "devDependencies": {
     "css-loader": "^7.1.4",

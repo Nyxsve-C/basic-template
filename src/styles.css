@@ -10,6 +10,7 @@ input, button { font: inherit; }
 li { list-style: none; }
 a { text-decoration: none; }
 img { pointer-events: none; }
+
 button {
     cursor: pointer;
     border: none;
